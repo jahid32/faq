@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FAq Plugin</title>
+  <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="faq.js"></script>
+  <script>
+   $(document).ready(function(){
+    $("#faq-wrapper").mrjsfaq();
+   });
+
+
+  </script>
+  <style>
+   #faq-wrapper{
+    width:320px;
+    padding:10px;
+    margin:0 auto;
+}
+
+.faq-title{
+    font-size:18px;
+    line-height:24px;
+    color:#3ac;
+    cursor:pointer
+}
+
+  .faq-description{
+    padding:0 0 10px 10px;
+    display:none;
+   }
+  </style>
+</head>
+<body>
+<dl id="faq-wrapper">
+    <dt class="faq-title">Quis aute iure</dt>
+    <dd class="faq-description">Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</dd>
+    <dt class="faq-title">Duis autem vel eum iriure</dt>
+    <dd class="faq-description">Sanctus sea sed takimata ut vero voluptua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</dd>
+    <dt class="faq-title">Ut wisi enim ad minim</dt>
+    <dd class="faq-description">Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</dd>
+    <dt class="faq-title">Lorem ipsum dolor sit amet</dt>
+    <dd class="faq-description">Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</dd>
+    <dt class="faq-title">Stet clita kasd gubergren</dt>
+    <dd class="faq-description">Lorem ipsum dolor sit amet. At vero eos et accusam et justo duo dolores et ea rebum.</dd>
+
+</dl>
+</body>
+</html>
